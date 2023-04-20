@@ -1,0 +1,708 @@
+* {
+margin: 0%;
+padding: 0%;
+width: 100%;
+}
+
+body {
+    padding: 0;
+    width: 100%;
+  }
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: #072f38;
+    padding: 0%;
+    }
+    
+  .menuc {
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-size: 25px;
+    }
+    
+  .menuc li a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: 25px 20px 10px 20px;
+    text-align: center;
+    }
+    
+  .menuc li a:hover {
+    color: #e5ddc0;
+    display: block;
+    text-decoration: none;
+    background-color: rgba(19, 19, 19, 0);
+    }
+
+/* card */
+
+.card {
+    width: 190px;
+    height: 254px;
+    padding: .8em;
+    background: #f5f5f5;
+    position: relative;
+    overflow: visible;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    position: absolute;
+   }
+   
+.card-img1 {
+    height: 52%;
+    width: 70%;
+    margin-left: 6vh;
+    border-radius: .5rem;
+    transition: .3s ease;
+   }
+
+.card-img2 {
+    height: 45%;
+    width: 70%;
+    margin-left: 6vh;
+    border-radius: .5rem;
+    transition: .3s ease;
+   }
+
+.card-img2 img{
+    height: 150px;
+   }
+
+.card-img3 {
+    height: 45%;
+    width: 70%;
+    margin-left: 7vh;
+    border-radius: .5rem;
+    transition: .3s ease;
+   }
+
+.card-img3 img{
+    height: 150px;
+   }
+
+   .card-img4 {
+    height: 45%;
+    width: 70%;
+    margin-left: 7vh;
+    border-radius: .5rem;
+    transition: .3s ease;
+   }
+
+.card-img4 img{
+    height: 150px;
+   }
+
+   .card-img5 {
+    height: 50%;
+    width: 70%;
+    margin-left: 6vh;
+    border-radius: .5rem;
+    transition: .3s ease;
+   }
+
+.card-img5 img{
+    height: 150px;
+   }
+
+.card-img6 {
+    height: 45%;
+    width: 70%;
+    margin-left: 6vh;
+    border-radius: .5rem;
+    transition: .3s ease;
+   }
+
+.card-img6 img{
+    height: 150px;
+   }
+
+.card-img7 {
+    height: 45%;
+    width: 70%;
+    margin-left: 6vh;
+    border-radius: .5rem;
+    transition: .3s ease;
+   }
+
+.card-img7 img{
+    height: 150px;
+   }
+
+.card-img8 {
+    height: 45%;
+    width: 70%;
+    margin-left: 6vh;
+    border-radius: .5rem;
+    transition: .3s ease;
+   }
+
+.card-img8 img{
+    height: 150px;
+   }
+
+.card-img9 {
+    height: 45%;
+    width: 70%;
+    margin-left: 6vh;
+    border-radius: .5rem;
+    transition: .3s ease;
+   }
+
+.card-img9 img{
+    height: 150px;
+   }
+
+.card-img10 {
+    height: 45%;
+    width: 70%;
+    margin-left: 6vh;
+    border-radius: .5rem;
+    transition: .3s ease;
+   }
+
+.card-img10 img{
+    height: 150px;
+   }
+
+.card-img11 {
+    height: 45%;
+    width: 70%;
+    margin-left: 6vh;
+    border-radius: .5rem;
+    transition: .3s ease;
+   }
+
+.card-img11 img{
+    height: 150px;
+   }
+
+.card-img12 {
+    height: 45%;
+    width: 70%;
+    margin-left: 6vh;
+    border-radius: .5rem;
+    transition: .3s ease;
+   }
+
+.card-img12 img{
+    height: 150px;
+   }
+   
+.card-info {
+    padding-top: 10%;
+   }
+   
+svg {
+    width: 20px;
+    height: 20px;
+   }
+   
+.card-footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+   }
+   
+.text-title {
+    font-weight: 900;
+    font-size: 1.2em;
+    line-height: 1.5;
+   }
+   
+.text-body {
+    font-size: .9em;
+    padding-bottom: 10px;
+   }
+   
+.card-button {
+    border: 1px solid #252525;
+    display: flex;
+    padding: .3em;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: .3s ease-in-out;
+   }
+   
+.card-button:hover {
+    border: 1px solid #000000;
+    background-color: #072F38;
+    color:white;
+    transition: 1s;
+   }
+
+.tosale {
+font-size: 18px;
+margin-left: 2vh;
+text-decoration: none;
+color: rgb(0, 0, 0);
+display: block;
+text-decoration: none;
+}
+
+a {
+text-decoration: none;
+color: #000000;
+}
+
+a:hover {
+    text-decoration: none;
+    color:white
+}
+
+.tosale li a {
+    color: rgb(0, 0, 0);
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+
+.tosale li a:hover {
+    color: #E5DDC0;
+    display: block;
+    text-decoration: none;
+    cursor: pointer; 
+}
+   
+.sale1 {
+    margin-top: 5vw;
+    margin-left: 20vh;
+
+        }
+
+.sale2 {
+    margin-top: 5vw;
+    margin-left: 83.5vh;
+    
+        }
+
+.sale3 {
+    margin-top: 5vw;
+    margin-left: 147vh;
+           }
+
+.sale4 {
+    margin-top: 30vw;
+    margin-left: 20vh;
+                   }
+
+.sale5 {
+    margin-top: 30vw;
+    margin-left: 83.5vh;
+            }
+
+.sale6 {
+    margin-top: 30vw;
+    margin-left: 147vh;
+            }
+
+.sale7 {
+    margin-top: 55vw;
+    margin-left: 20vh;
+        }
+    
+.sale8 {
+    margin-top: 55vw;
+    margin-left: 83.5vh;
+        }
+
+.sale9 {
+    margin-top: 55vw;
+    margin-left: 147vh;
+        }
+
+.sale10 {
+    margin-top: 80vw;
+    margin-left: 20vh;
+        }
+
+.sale11 {
+    margin-top: 80vw;
+    margin-left: 83.5vh;
+        }
+
+.sale12 {
+    margin-top: 80vw;
+    margin-left: 147vh;
+        }
+
+.off {
+    border: 1px solid #000000;
+    background-color: #e60000;
+     color:white;
+    transition: 1s;
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 12px;
+        }
+
+/* footer */
+
+footer {
+    background-color: rgba(0, 0, 0, 0.432);
+    width: 100%;
+    height: 30vw;
+    padding: 0%;
+    margin-top: 40vw;
+          }
+  
+  .caixa1{
+  
+  position: absolute;
+  width: 100%;
+  height: 26vw;
+  margin-top: 4vw;
+  background-color: #888686;
+  padding: 0%;
+        }
+  
+  .infoimg {
+  margin-left: 35vh;
+    height: 100px ;
+    width: 250px ;
+    margin-top: 6vw;
+    position: absolute;
+  }
+
+  .pointer {
+cursor: pointer;
+font-size: 25px;
+margin-left: 37vh;
+margin-top: 23vw;
+color: white;
+position: absolute;
+
+  }
+
+  .textcaixa1 {
+margin-top: 17vw;
+font-size: 18px;
+color: white;
+margin-left: 14vh;
+position: absolute;
+
+  }
+
+  .textcaixa2 {
+    margin-top: 9vw;
+    font-size: 30px;
+    color: white;
+    margin-left: 145vh;
+    position: absolute;
+
+      }
+
+  .textcaixa3 {
+    margin-top: 15vw;
+    font-size: 20px;
+    color: white;
+    margin-left: 144vh;
+    position: absolute;
+
+  }
+
+  .textcaixa4 {
+    margin-left: 92vh;
+    color: white;
+    font-size: 10px;
+    margin-top: 29vw;
+    position: absolute;
+
+  }
+
+.imgfooter1{
+
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  margin-top: 15vw;
+  margin-left: 138vh;
+
+}
+
+.imgfooter2{
+
+height: 20px;
+width: 20px;
+position: absolute;
+margin-top: 18vw;
+margin-left: 138vh;
+}
+
+.imgfooter3{
+
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  margin-top: 21vw;
+  margin-left: 138vh;
+  }
+
+  .imgfooter4{
+
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    margin-top: 24vw;
+    margin-left: 138vh;
+    }
+
+/* paginas venda */
+
+.overflow {
+    overflow-x: hidden;
+}
+
+.boxsale {
+    width: 80%;
+    height: 40vw;
+    margin-top: 4vw;
+    background-color: #E5DDC0;
+    border: 2px solid #000000;
+    margin-left: 20vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.cancelicon {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    margin-left: 1vh;
+    margin-top: 0.5vw;
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+}
+
+.titlei {
+
+    font-size:30px ;
+    color: #000000;
+    position: absolute;
+    margin-left: 7vh ;
+    margin-top: 4vw;
+    overflow-x: hidden;
+
+}
+
+.smalltext1 {
+    font-size: 15px;
+    color: #3a3a3a;
+    margin-left: 8vh ;
+    margin-top: 7vw;
+    overflow-x: hidden;
+
+}
+
+.smalltext2 {
+    font-size: 20px;
+    color: #ffffff;
+    margin-left: 1% ;
+    margin-top: 60%;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+
+.imgbd {
+    width: 500px;
+    height: 330px;
+    margin-top: 5% ;
+    margin-left: 8%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.boxbuy{
+    width: 280px;
+    height: 320px;
+    border-radius: 5px;
+    background-color: #072F38;
+    border: 2px solid #000000;
+    margin-left: 60%;
+    margin-top: -27%;
+    overflow-x: hidden;
+
+}
+
+.price {
+    position: absolute;
+    margin-left: 6%;
+    margin-top: 1%;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    overflow-x: hidden;
+}
+
+.pricep {
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 1%;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    overflow-x: hidden;
+}
+
+.buybutton {
+    position: absolute;
+    width: 180px;
+    height: 45px;
+    background-color: #E5DDC0;
+    border: 2px solid #000000;
+    border-radius: 4px;
+    margin-left: 3%;
+    margin-top: 2%;
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    overflow-x: hidden;
+    text-decoration: none;
+}
+
+.buybutton a {
+    margin-left: 17%;
+}
+
+.buybutton a:hover{
+    position: absolute;
+    transition: 0.5s;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    overflow-x: hidden;
+}
+
+/* teste forms */
+
+.boxpag {
+    margin-left: 33%;
+    margin-top: 5%;
+}
+
+.borda {
+    width: fit-content;
+    height: fit-content;
+    background: #FFFFFF;
+    box-shadow: 0px 187px 75px rgba(0, 0, 0, 0.01), 0px 105px 63px rgba(0, 0, 0, 0.05), 0px 47px 47px rgba(0, 0, 0, 0.09), 0px 12px 26px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 26px;
+    max-width: 450px;
+  }
+
+  /* .handelcancel img{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    margin-left: 1vh;
+    margin-top: 0.5vw;
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+} */
+  
+  .formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px;
+    width: 80%;
+  }
+  
+  .pagamentobutton {
+    height: 55px;
+    background: #F2F2F2;
+    border-radius: 11px;
+    border: 0;
+    width: 80%;
+    margin-left: 12%;
+  }
+
+  .pagamentobutton img {
+    width: 100px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .separacao {
+    display: grid;
+    gap: 10px;
+    color: #8B8E98;
+  }
+  
+  .separacao > p {
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    font-size: 11px;
+  }
+  
+  .separacao .linha {
+    width: 100%;
+    height: 1px;
+    border: 0;
+    background-color: #e8e8e8;
+  }
+  
+  .creditoinfo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sep {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .label {
+    font-size: 10px;
+    color: #8B8E98;
+  }
+  
+  .infosi {
+    width: auto;
+    height: 40px;
+    padding: 0 0 0 16px;
+    border-radius: 9px;
+    outline: none;
+    background-color: #F2F2F2;
+    border: 1px solid #e5e5e500;
+    transition: all 0.3s cubic-bezier(0.15, 0.83, 0.66, 1);
+  }
+  
+  .btnpag {
+    height: 55px;
+    background: #F2F2F2;
+    border-radius: 11px;
+    border: 0;
+    outline: none;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 700;
+    background-color: #000000;
+    cursor: pointer;
+  }
+
+  .btnpag a{
+    height: 55px;
+    border-radius: 11px;
+    border: 0;
+    outline: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: #000000;
+    cursor: pointer;
+  }

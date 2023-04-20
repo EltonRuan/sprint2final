@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagamento</title>
+
+    <link rel="stylesheet" href="vendas.css">
+</head>
+<body style="background-color: black;">
+    
+  <div class="boxpag">
+    <div class="borda">
+        <form class="formulario">
+          <div class="pagamentobutton">
+            <button name="handel" type="button"><a href="vendas.html"><img src="imagens/logoi.png" alt=""></a></button>
+          </div>
+          <div class="separacao">
+            <hr class="linha">
+            <p>Pague pelo cartão de Crédito</p>
+            <hr class="linha">
+          </div>
+          <div class="creditoinfo">
+            <div class="container">
+              <label for="password_field" class="label">Nome do responsável do cartão</label>
+              <input id="password_field" class="infosi" type="text" name="input-name" title="Inpit title" placeholder="Digite o seu nome completo">
+            </div>
+            <div class="container">
+              <label for="password_field" class="label">Número do cartão</label>
+              <input id="password_field" class="infosi" type="number" name="input-name" title="Inpit title" placeholder="0000 0000 0000 0000">
+            </div>
+            <div class="container">
+              <label for="password_field" class="label">Data de Vencimento / CVV</label>
+              <div class="sep">
+              <input id="password_field" class="infosi" type="text" name="input-name" title="Expiry Date" placeholder="01/23">
+              <input id="password_field" class="infosi" type="number" name="cvv" title="CVV" placeholder="CVV">
+            </div>
+            </div>
+          </div>
+            <button class="btnpag"><a href="">Realizar Compra</a></button>
+        </form>
+      </div>
+  </div>
+
+</body>
+</html>
