@@ -76,7 +76,6 @@ font-size: x-large;
   width: 70%;
   background-color: #00000075;
   padding: 3% 1% 5% 1%;
-
 }
 
 
@@ -444,5 +443,13 @@ margin-left: 138vh;
     position: absolute;
     margin-top: 26.5vw;
     margin-left: 138vh;
+    }
+
+
+    @media screen and (max-width: 400px){
+
+      body{
+        background-color: #888686;
+      }
     }
 
