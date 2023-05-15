@@ -150,6 +150,7 @@ width: 35%;
 
 display: flex;
 justify-content: end;
+text-decoration: none;
 }
 
 .btn {
@@ -337,119 +338,38 @@ padding: 20px 30px 20px 30px;
 
   }
 
-footer {
-    background-color: rgba(0, 0, 0, 0.432);
-    width: 100%;
-    padding: 0%;
+/* footer */
 
-  }
-  
-  .caixa1{
-  
-  position: absolute;
+.footer {
   width: 100%;
-  height: 26vw;
-  margin-top: 4vw;
-  background-color: #888686;
-  padding: 0%;
-        }
-  
-  .infoimg {
-  margin-left: 35vh;
-    height: 100px ;
-    width: 250px ;
-    margin-top: 6vw;
-    position: absolute;
-  }
+  height: 400px;
+  background-color:rgb(67, 61, 61);
+  display: flex;
+}
 
-  .pointer {
+.infosf1 {
+width: 50%;
+font-size: 14px;
+text-align: center;
+}
+
+.infosf1 h3 {
+  font-size: 20px;
 cursor: pointer;
-font-size: 25px;
-margin-left: 37vh;
-margin-top: 23vw;
-color: white;
-position: absolute;
-
-  }
-
-  .textcaixa1 {
-margin-top: 17vw;
-font-size: 18px;
-color: white;
-margin-left: 10vh;
-position: absolute;
-
-  }
-
-  .textcaixa2 {
-    margin-top: 9vw;
-    font-size: 30px;
-    color: white;
-    margin-left: 145vh;
-    position: absolute;
-
-      }
-
-  .textcaixa3 {
-    margin-top: 15vw;
-    font-size: 20px;
-    color: white;
-    margin-left: 144vh;
-    position: absolute;
-
-  }
-
-  .textcaixa4 {
-    margin-left: 92vh;
-    color: white;
-    font-size: 10px;
-    margin-top: 29vw;
-    position: absolute;
-
-  }
-
-.imgfooter1{
-
-  height: 20px;
-  width: 20px;
-  position: absolute;
-  margin-top: 15vw;
-  margin-left: 138vh;
-
 }
 
-.imgfooter2{
-
-height: 20px;
-width: 20px;
-position: absolute;
-margin-top: 19vw;
-margin-left: 138vh;
+.logoimgf img{
+  width: 400px;
 }
 
-.imgfooter3{
+.infosf2 {
+width: 50%;
+font-size: 22px;
+text-align: center;
+}
 
-  height: 20px;
-  width: 20px;
-  position: absolute;
-  margin-top: 22.5vw;
-  margin-left: 138vh;
-  }
-
-  .imgfooter4{
-
-    height: 20px;
-    width: 20px;
-    position: absolute;
-    margin-top: 26.5vw;
-    margin-left: 138vh;
-    }
-
-
-    @media screen and (max-width: 400px){
-
-      body{
-        background-color: #888686;
-      }
-    }
-
+.infosf2 h2 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 42px;
+  color: #ffffff;
+}

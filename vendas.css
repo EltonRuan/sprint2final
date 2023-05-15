@@ -6,16 +6,17 @@ padding: 0%;
 width: 100%;
 }
 
-body {
-    padding: 0;
-    width: 100%;
-  }
 
 header {
     width: 100%;
     height: 80px;
     background-color: #072f38;
     padding: 0%;
+    }
+
+    body {
+      padding: 0;
+      width: 100%;
     }
     
   .menuc {
@@ -188,179 +189,47 @@ a:hover {
     text-decoration: none;
     cursor: pointer; 
 }
-   
-/* .sale1 {
-    margin-top: 5vw;
-    margin-left: 20vh;
-
-        }
-
-.sale2 {
-    margin-top: 5vw;
-    margin-left: 83.5vh;
-    
-        }
-
-.sale3 {
-    margin-top: 5vw;
-    margin-left: 147vh;
-           }
-
-.sale4 {
-    margin-top: 30vw;
-    margin-left: 20vh;
-                   }
-
-.sale5 {
-    margin-top: 30vw;
-    margin-left: 83.5vh;
-            }
-
-.sale6 {
-    margin-top: 30vw;
-    margin-left: 147vh;
-            }
-
-.sale7 {
-    margin-top: 55vw;
-    margin-left: 20vh;
-        }
-    
-.sale8 {
-    margin-top: 55vw;
-    margin-left: 83.5vh;
-        }
-
-.sale9 {
-    margin-top: 55vw;
-    margin-left: 147vh;
-        }
-
-.sale10 {
-    margin-top: 80vw;
-    margin-left: 20vh;
-        }
-
-.sale11 {
-    margin-top: 80vw;
-    margin-left: 83.5vh;
-        }
-
-.sale12 {
-    margin-top: 80vw;
-    margin-left: 147vh;
-        } */
 
 /* footer */
 
-footer {
-    background-color: rgba(0, 0, 0, 0.432);
-    width: 100%;
-    height: 30vw;
-    padding: 0%;
-    margin-top: 40vw;
-          }
-  
-  .caixa1{
-  
-  position: absolute;
+.footer {
   width: 100%;
-  height: 26vw;
-  margin-top: 4vw;
-  background-color: #888686;
-  padding: 0%;
-        }
-  
-  .infoimg {
-  margin-left: 35vh;
-    height: 100px ;
-    width: 250px ;
-    margin-top: 6vw;
-    position: absolute;
-  }
+  height: 400px;
+  background-color:rgb(67, 61, 61);
+  display: flex;
+}
 
-  .pointer {
+.infosf1 {
+width: 50%;
+font-size: 14px;
+text-align: center;
+}
+
+.infosf1 h3 {
+  font-size: 20px;
 cursor: pointer;
-font-size: 25px;
-margin-left: 37vh;
-margin-top: 23vw;
-color: white;
-position: absolute;
-
-  }
-
-  .textcaixa1 {
-margin-top: 17vw;
-font-size: 18px;
-color: white;
-margin-left: 14vh;
-position: absolute;
-
-  }
-
-  .textcaixa2 {
-    margin-top: 9vw;
-    font-size: 30px;
-    color: white;
-    margin-left: 145vh;
-    position: absolute;
-
-      }
-
-  .textcaixa3 {
-    margin-top: 15vw;
-    font-size: 20px;
-    color: white;
-    margin-left: 144vh;
-    position: absolute;
-
-  }
-
-  .textcaixa4 {
-    margin-left: 92vh;
-    color: white;
-    font-size: 10px;
-    margin-top: 29vw;
-    position: absolute;
-
-  }
-
-.imgfooter1{
-
-  height: 20px;
-  width: 20px;
-  position: absolute;
-  margin-top: 15vw;
-  margin-left: 138vh;
-
 }
 
-.imgfooter2{
-
-height: 20px;
-width: 20px;
-position: absolute;
-margin-top: 19vw;
-margin-left: 138vh;
+.logoimgf img{
+  width: 400px;
 }
 
-.imgfooter3{
+.infosf2 {
+width: 50%;
+font-size: 22px;
+text-align: center;
+}
 
-  height: 20px;
-  width: 20px;
-  position: absolute;
-  margin-top: 23vw;
-  margin-left: 138vh;
-  }
+.infosf2 h2 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 42px;
+  color: #ffffff;
+}
 
-  .imgfooter4{
+.info {
+  display: flex;
+}
 
-    height: 20px;
-    width: 20px;
-    position: absolute;
-    margin-top: 26.5vw;
-    margin-left: 138vh;
-    }
 
 /* paginas venda */
 
@@ -373,8 +242,7 @@ margin-left: 138vh;
     height: 40vw;
     margin-top: 4vw;
     background-color: #E5DDC0;
-    border: 2px solid #000000;
-    margin-left: 20vh;
+    margin-left: 10%;
     overflow-y: hidden;
     overflow-x: hidden;
 }
@@ -382,23 +250,18 @@ margin-left: 138vh;
 .cancelicon {
     height: 20px;
     width: 20px;
-    position: absolute;
-    margin-left: 1vh;
-    margin-top: 0.5vw;
+    margin: 1px;
     overflow-y: hidden;
     overflow-x: hidden;
 
 }
 
 .titlei {
-
     font-size:30px ;
     color: #000000;
     position: absolute;
-    margin-left: 7vh ;
-    margin-top: 4vw;
+  padding: 5%;
     overflow-x: hidden;
-
 }
 
 .smalltext1 {
